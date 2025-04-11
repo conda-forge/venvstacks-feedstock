@@ -1,5 +1,5 @@
 {% set name = "venvstacks" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/venvstacks-{{ version }}.tar.gz
-  sha256: 836971ae638b29f896ebaeef797edc2e8a4d1b6b815379bfe37a532ba5aac938
+  sha256: 9241ad49f4ef0abb919ecc54a64a777c13b4130723b21e81ee2034c26c297843
 
 build:
   entry_points:
