@@ -30,6 +30,9 @@ requirements:
     - typer-slim >=0.12.4
     - tomlkit >=0.13.2
 
+    # For CLI
+    - typer >=0.12.4
+
 test:
   imports:
     - venvstacks
