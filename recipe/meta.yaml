@@ -28,6 +28,7 @@ requirements:
     - pdm >=2.17.3
     - python-uv >=0.2.33
     - typer-slim >=0.12.4
+    - tomlkit >=0.13.2
 
 test:
   imports:
