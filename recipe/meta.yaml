@@ -39,7 +39,6 @@ test:
   requires:
     - pip
     - python {{ python_min }}
-    - typer <0.15.4
 
 about:
   home: https://github.com/lmstudio-ai/venvstacks
