@@ -2,8 +2,8 @@ schema_version: 1
 
 context:
   name: venvstacks
-  version: 0.5.1
-  python_min: 3.11
+  version: "0.6.0"
+  python_min: '3.11'
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/venvstacks-${{ version }}.tar.gz
-  sha256: da7f713bb2c1a018311acf0bf2be8e26a9b14303ba26c0cf3079f586c567af07
+  sha256: 11d9da7c40fb01fdfe43b097bf3b30c67637a2c2aeb48f73c35ab8392f0fea37
 
 build:
   number: 0
